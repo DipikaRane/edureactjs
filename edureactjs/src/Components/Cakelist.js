@@ -1,18 +1,21 @@
 import React from 'react';
 import Cake from './Cake';
+import './cake.css'
 
 function CakeList(){
-    var cake={
+    var cake=[{
         name:"Fruit Cake",
         price:1000,
         image:"cake1.jpeg"
-      }
+      },
+      {
+        name:"Vanila Cake",
+        price:900,
+        image:"cake2.jpeg"
+      }]
     return(
         <>
-        <div className="container-fluid">
-            <img src="https://i.ibb.co/gD4t3k4/cake-landing-page-banner-desktop.jpg" alt="cake1" style={{width:'100%',height:'400px'}}/>
-        </div>
-        <div className="row">
+        <div>
             {cake?.map((each)=>{
                 return <Cake data={each}/>
             })}

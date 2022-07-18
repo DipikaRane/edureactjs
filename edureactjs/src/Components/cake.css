@@ -1,6 +1,7 @@
-.card{
+.card{  
+    display:inline-block; 
     margin:2%;
-    width:250px;
+    max-width:250px;
     height:350px;
     text-align:center;
 }
@@ -11,4 +12,26 @@ height:260px;
 img{
     width:100%;
     height:100%
+}
+#signup-container{
+    background-color:#f8f9fa;
+}
+#signup-container>button{
+    display:inline-block;
+    margin-left:2%;
+    margin-top:4px;
+    margin-bottom:4px;
+}
+#signup-container>input{
+    width:40%;
+    margin-left:2%;
+    display:inline-block;
+    margin-top:4px;
+    margin-bottom:4px;
+}
+.eid{
+    color:#dc3545;
+    margin-left:15%;
+    width:150px;
+    display:inline-block;
 }

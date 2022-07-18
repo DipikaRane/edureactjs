@@ -1,10 +1,9 @@
-import React from 'react'
-function Home(){ 
+export default function Home(){ 
     return(
-        <div>
-            <img src="https://i.ibb.co/gD4t3k4/cake-landing-page-banner-desktop.jpg" alt="cake1" style={{width:'100%',height:'400px'}}/>
+        <div className="home-container">
+            <img src="cak4.jpg" alt="cake1" style={{width:'100%',height:'500px'}}/>
         <h1>Home</h1>
         </div>
     )
 }
-export default Home
+ 

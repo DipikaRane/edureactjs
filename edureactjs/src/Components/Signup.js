@@ -1,8 +1,10 @@
 import {useState} from 'react';
-function Signup(){
-    var email 
+import './cake.css'
+function Signup(props){
+    var email
     function getEmail(e){
         email=e.target.value
+        // console.log(email)
     }
     var [error,setError]=useState("")
     function signup(){
@@ -10,7 +12,7 @@ function Signup(){
         //     setError("Email required")
         // }
         if(!email){
-            error="Email required"
+            error="Email required :"
             setError(error)
         }
         else{
@@ -19,12 +21,17 @@ function Signup(){
     }
     return(
         <>
-        <input onChange={getEmail} className="form-control"/>
-        <div style={{color:'red'}}>
+        <div id="signup-container">
+        <div className="eid">
             {error}
         </div>
-        <button onClick={signup} className="btn btn-primary">Signup</button>
+        <input onChange={getEmail} className="form-control" placeholder="Email address"/>
+        <button onClick={signup} className="btn btn-danger">Signup</button>
+        
+        {/* {isloggedIn && <button className="btn btn-success">Sign Out</button>} */}
+        </div>
         </>
+        
     )
 }
 export default Signup

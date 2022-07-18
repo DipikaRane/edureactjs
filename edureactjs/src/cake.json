@@ -1,0 +1,23 @@
+[
+    {
+        "_id":1,
+        "cake_name":"Fruit Cake",
+        "cost":1000,
+        "layer":1,
+        "image":
+    },
+    {
+        "_id":2,
+        "cake_name":"Fruit Cake",
+        "cost":1000,
+        "layer":1,
+        "image":
+    },
+    {
+        "_id":3,
+        "cake_name":"Fruit Cake",
+        "cost":1000,
+        "layer":1,
+        "image":
+    }
+]
