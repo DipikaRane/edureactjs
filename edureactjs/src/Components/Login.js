@@ -1,4 +1,6 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
+import Carousel from './Carousel';
 //import { useEffect } from 'react';
 function Login(props){
     // useEffect(()=>{
@@ -20,8 +22,8 @@ function Login(props){
         user.password=e.target.value
         console.log(user.password)
     }
-    
     return(
+        <>
             <div className="row" style={{marginBottom:'3px'}}>
                 <div className="col-lg-4 col-md-4">
                     <div className="form-group">
@@ -35,10 +37,16 @@ function Login(props){
                         <input type="password"className="form-control" onChange={getPassword}/>
                     </div>
                 </div>           
-                <div className="d-grid gap-2 col-4 mx-auto">
-                    <button className="btn btn-outline-success" onClick={login} style={{marginTop:'20px'}}>Login</button>
+                <div className="col-lg-1">
+                    <Link to="/"><button className="btn btn-outline-success" onClick={login} style={{marginTop:'20px'}}>Login</button></Link>
                 </div>
+                <div className="col-lg-2" style={{marginTop: '2%'}}>
+                    <Link to="/sign-up"><label>New User? Sign Up Here</label></Link>
+                </div>
+                
             </div>
+            <Carousel/>
+            </>
     )
 }
 export default Login

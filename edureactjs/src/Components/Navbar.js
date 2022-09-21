@@ -1,4 +1,9 @@
+// import {useState} from 'react';
 import {Link} from 'react-router-dom';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import SearchIcon from '@mui/icons-material/Search';
+import LogoutIcon from '@mui/icons-material/Logout';
+import LoginSharpIcon from '@mui/icons-material/LoginSharp';
 export default function Navbar(props){
   var isloggedin=props.isloggedin
     var myName = {
@@ -50,9 +55,13 @@ export default function Navbar(props){
               </ul>
               <form class="d-flex">
                 <input onChange={getSearchText} class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                <button onClick={searchCake}class="btn btn-outline-success" type="submit" >Search</button>
-                {!isloggedin && <button className="btn btn-outline-success" style={{marginLeft:'3px'}}>Login</button>}
-                {isloggedin && <button className="btn btn-outline-success" style={{marginLeft:'3px'}}>Logout</button>}
+                <SearchIcon onClick={searchCake} type="submit" />
+                <Link to="/login">{!isloggedin && <LoginSharpIcon style={{marginLeft:'3px'}}/>}</Link>               
+                {isloggedin && <ShoppingCartIcon style={{marginLeft:'3px'}}/>}
+                {isloggedin && <LogoutIcon style={{marginLeft:'3px'}}/>}
+                
+                {/* <Link to="/home">{isloggedin && }</Link>
+                {isloggedout && <LogoutIcon onClick={logout}style={{marginLeft:'3px'}}/>} */}
               </form>
             </div>
           </div>

@@ -1,23 +1,142 @@
 [
     {
         "_id":1,
-        "cake_name":"Fruit Cake",
-        "cost":1000,
-        "layer":1,
-        "image":
+        "cake_name":"BUTTERFLY THEME CAKE",
+        "cost":1500,
+        "layer":2,
+        "image":"https://i.ibb.co/YTtf9bf/butterfly.jpg"
     },
     {
         "_id":2,
-        "cake_name":"Fruit Cake",
-        "cost":1000,
-        "layer":1,
-        "image":
+        "cake_name":"FOOTBALL THEME CAKE",
+        "cost":1600,
+        "layer":2,
+        "image":"https://i.ibb.co/jgJVhqw/football.jpg"
     },
     {
         "_id":3,
-        "cake_name":"Fruit Cake",
+        "cake_name":"RED VELWET CAKE",
+        "cost":800,
+        "layer":1,
+        "image":"https://i.ibb.co/WtwSmXb/IMG-20220201-WA0002.jpg"
+    },
+    {
+        "_id":4,
+        "cake_name":"FLORAL VANILA CAKE",
         "cost":1000,
         "layer":1,
-        "image":
+        "image":"https://i.ibb.co/t4q71MK/IMG-20220201-WA0005.jpg"
+    },
+    {
+        "_id":5,
+        "cake_name":"DIAMOND HAMMER CAKE",
+        "cost":1300,
+        "layer":1,
+        "image":"https://i.ibb.co/HNHt5xw/IMG-20220201-WA0006.jpg"
+    },
+    {
+        "_id":6,
+        "cake_name":"RED VELWT HEART",
+        "cost":750,
+        "layer":1,
+        "image":"https://i.ibb.co/FWnFvpY/IMG-20220201-WA0007.jpg"
+    },
+    {
+        "_id":7,
+        "cake_name":"CHOCOLATE HEART CAKE",
+        "cost":1000,
+        "layer":1,
+        "image":"https://i.ibb.co/p4c2NTp/IMG-20220201-WA0008.jpg"
+    },
+    {
+        "_id":8,
+        "cake_name":"BOSSBABY THEME CAKE",
+        "cost":900,
+        "layer":1,
+        "image":"https://i.ibb.co/hDzS6VH/IMG-20220201-WA0009.jpg"
+    },
+    {
+        "_id":9,
+        "cake_name":"RED JELLY CAKE",
+        "cost":1000,
+        "layer":1,
+        "image":"https://i.ibb.co/rHWwS72/IMG-20220201-WA0013.jpg"
+    },
+    {
+        "_id":10,
+        "cake_name":"FLOWER CHOCOLATE CAKE",
+        "cost":1200,
+        "layer":1,
+        "image":"https://i.ibb.co/yRHr1Xd/IMG-20220201-WA0016.jpg"
+    },
+    {
+        "_id":11,
+        "cake_name":"RED VELWET VANILA CAKE",
+        "cost":900,
+        "layer":1,
+        "image":"https://i.ibb.co/9G16ymc/IMG-20220201-WA0017.jpg"
+    },
+    {
+        "_id":12,
+        "cake_name":"SPIDY THEME CAKE",
+        "cost":1100,
+        "layer":1,
+        "image":"https://i.ibb.co/q7t26hg/IMG-20220201-WA0018.jpg"
+    },
+    {
+        "_id":13,
+        "cake_name":"GOLDEN PINEAPPLE CAKE",
+        "cost":1200,
+        "layer":1,
+        "image":"https://i.ibb.co/pQ81zRR/IMG-20220201-WA0019.jpg"
+    },
+    {
+        "_id":14,
+        "cake_name":"JUNGLE THEME CAKE",
+        "cost":1800,
+        "layer":2,
+        "image":"https://i.ibb.co/dtdHtWK/jungletheme.jpg"
+    },
+    {
+        "_id":15,
+        "cake_name":"PEPPAPIG THEME CAKE",
+        "cost":1500,
+        "layer":2,
+        "image":"https://i.ibb.co/W3mLLqV/peppapig.jpg"
+    },
+    {
+        "_id":16,
+        "cake_name":"KIWI CAKE",
+        "cost":1000,
+        "layer":1,
+        "image":"https://i.ibb.co/BtPcWvq/IMG-20220202-WA0003.jpg"
+    },
+    {
+        "_id":17,
+        "cake_name":"CHOCOLATE CAKE",
+        "cost":850,
+        "layer":1,
+        "image":"https://i.ibb.co/56TNC9k/IMG-20220202-WA0004.jpg"
+    },
+    {
+        "_id":18,
+        "cake_name":"BUTTERSCOTCH HONEY CAKE",
+        "cost":700,
+        "layer":1,
+        "image":"https://i.ibb.co/K70QbH2/IMG-20220202-WA0002.jpg"
+    },
+    {
+        "_id":19,
+        "cake_name":"ARMY THEME CAKE",
+        "cost":1000,
+        "layer":1,
+        "image":"https://i.ibb.co/5vsF9BC/IMG-20220201-WA0026.jpg"
+    },
+    {
+        "_id":20,
+        "cake_name":"FRUIT CAKE",
+        "cost":1000,
+        "layer":1,
+        "image":"https://i.ibb.co/nfzkfxq/IMG-20220201-WA0027.jpg"
     }
 ]
