@@ -43,7 +43,7 @@ export default function Navbar(props){
                   {myName.name2}
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><Link to="/cake" class="dropdown-item" href="#Home">{myTab.taste1}</Link></li>
+                    <li><Link to="/cake" class="dropdown-item">{myTab.taste1}</Link></li>
                     <li><a class="dropdown-item" href="#Home">{myTab.taste2}</a></li>
                     <li><hr class="dropdown-divider"/></li>
                     <li><a class="dropdown-item" href="#Home">{myTab.taste3}</a></li>
